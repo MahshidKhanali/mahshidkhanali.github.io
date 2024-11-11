@@ -8,3 +8,11 @@
   color: rgb(0, 0, 0);
   background: #ffc5cd;
 }
+
+.socials a:hover {
+  transform: translateY(-8px);
+}
+
+.socials a {
+  transition: transform 100ms ease-in-out;
+}
