@@ -1,0 +1,60 @@
+@media (max-width: 450px) {
+  .header-curve,
+  .form-book,
+  .download-text {
+    display: none;
+  }
+
+  .info-text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .form-wrapper {
+    padding: 30px 10px;
+  }
+  .form-title {
+    font-size: 14px;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  .header {
+    padding-top: 50px;
+  }
+  .header-title {
+    font-size: 14px;
+  }
+  .header-subtitle {
+    font-size: 16px;
+  }
+  .download {
+    margin-top: 20px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .details-card-title {
+    font-size: 16px;
+  }
+  .form-download-btn {
+    margin-right: 10px;
+    width: 180px;
+    height: 48px;
+    font-size: 13px;
+  }
+  .form-share-btn {
+    height: 48px;
+  }
+  .form-button-wrapper {
+    justify-content: center !important;
+    /* background-color: red; */
+  }
+  .purple {
+    color: #000;
+  }
+}

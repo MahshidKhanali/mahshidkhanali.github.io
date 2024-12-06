@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="83.326"
+  height="11.303"
+  viewBox="0 0 83.326 11.303">
+  <g id="Group_3383"
+    data-name="Group 3383"
+    transform="translate(-490.918 0)">
+    <path id="Path_484"
+      data-name="Path 484"
+      d="M20748.41,13651.672h-72.434"
+      transform="translate(-20175.166 -13645.826)"
+      fill="none"
+      stroke="#DBDEE6"
+      stroke-linecap="round"
+      stroke-width="2"
+      stroke-dasharray="6"/>
+    <g id="next"
+      transform="translate(497.558 11.303) rotate(180)">
+      <g id="Group_353"
+        data-name="Group 353"
+        transform="translate(0 0)">
+        <path id="Path_296"
+          data-name="Path 296"
+          d="M6.46,5.211,1.43.181a.62.62,0,0,0-.874,0l-.37.37a.619.619,0,0,0,0,.874L4.409,5.649.181,9.878a.62.62,0,0,0,0,.875l.37.37a.62.62,0,0,0,.874,0L6.46,6.088a.624.624,0,0,0,0-.878Z"
+          fill="#DBDEE6"/>
+      </g>
+    </g>
+  </g>
+</svg>

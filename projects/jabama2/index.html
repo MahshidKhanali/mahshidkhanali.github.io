@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="pleconnect" href="https://fonts.googleapis.com" />
+    <link rel="pleconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+
+    <title>Jabama</title>
+  </head>
+  <body>
+    <div class="header__curve">
+      <img
+        src="./assets/images/curve.svg"
+        alt=""
+        style="
+          width: 100%;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          max-height: 500px;
+        "
+      />
+    </div>
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-sm-10 header__wrapper">
+            <div class="header__circle"></div>
+            <div class="header__circle__small"></div>
+            <div class="header__dots">
+              <img src="./assets/images/header_dot.svg" alt="" />
+            </div>
+            <div class="container">
+              <div class="row d-flex justify-content-between">
+                <div class="col-12 col-sm-5">
+                  <div class="row d-flex flex-column">
+                    <div class="header__title d-flex align-items-center">
+                      <div class="mr-3">This Year is Yours</div>
+                      <i
+                        class="fas fa-check-circle"
+                        style="
+                          color: #3cc896;
+                          font-size: 20px;
+                          background-color: #fff;
+                          border-radius: 999px;
+                        "
+                      ></i>
+                    </div>
+                    <div class="header__slogan my-3">Campaign slogan</div>
+                    <div class="header__subtitle">
+                      Jabama, in collaboration with the esteemed Tourism Bank,
+                      offers financial services to ease conditions for hosts.
+                    </div>
+                    <div
+                      class="header__action-wrapper d-flex align-items-center flex-row justify-content-end"
+                    >
+                      <button
+                        class="header__btn"
+                        onclick="window.location.assign('#conditions')"
+                      >
+                        Conditions
+                      </button>
+                      <button
+                        onclick="window.location.assign('#start')"
+                        class="header__btn"
+                        style="background-color: #fff; color: black"
+                      >
+                        <div
+                          class="d-flex justify-content-around align-items-center"
+                        >
+                          <div>Sign Up</div>
+                          <i
+                            class="fas fa-chevron-right"
+                            style="color: #ffa41b"
+                          ></i>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-5 d-flex justify-content-center">
+                  <img src="./assets/images/phone.svg" alt="" width="300px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-11 col-sm-9 intro__wrapper">
+            <div class="intro__title d-flex flex-wrap align-items-end">
+              Dear Host,
+              <div class="highlight flex-column mx-1">
+                <div class="highlight-bg"></div>
+                <div class="position-relative">Jabama</div>
+              </div>
+            </div>
+            <div class="intro__subtitle">
+              With the onset of the COVID-19 pandemic, many industries suffered
+              economically. The tourism sector bore the brunt of the crisis, and
+              Jabama, with the esteemed Tourism Bank, has introduced financial
+              services to support hosts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="conditions" id="conditions">
+      <div class="container">
+        <div class="row d-flex justify-content-around align-items-center">
+          <div class="col-7 col-sm-5">
+            <img src="./assets/images/guy.svg" alt="" width="100%" />
+          </div>
+          <div class="col-11 col-sm-6">
+            <div class="conditions__title d-flex flex-wrap align-items-end">
+              Conditions for Receiving
+              <div class="highlight flex-column mx-1">
+                <div class="highlight-bg"></div>
+                <div class="position-relative">Financial Services</div>
+              </div>
+            </div>
+            <div class="conditions__items">
+              <div class="conditions__item d-flex">
+                <i
+                  class="fas fa-check-circle mx-3"
+                  style="color: #3f64ff; font-size: 20px"
+                ></i>
+                <div>
+                  A 10-million Toman loan from Tourism Bank is exclusively for
+                  current Jabama hosts with at least one confirmed booking.
+                </div>
+              </div>
+              <div class="conditions__item d-flex">
+                <i
+                  class="fas fa-check-circle mx-3"
+                  style="color: #3f64ff; font-size: 20px"
+                ></i>
+                <div>
+                  Each host is eligible to submit only one application for
+                  financial services.
+                </div>
+              </div>
+              <div class="conditions__item d-flex">
+                <i
+                  class="fas fa-check-circle mx-3"
+                  style="color: #3f64ff; font-size: 20px"
+                ></i>
+                <div>
+                  The loan interest rate is 18%, repayable in 36 installments
+                  with a 2-month grace period.
+                </div>
+              </div>
+              <div class="conditions__item d-flex">
+                <i
+                  class="fas fa-check-circle mx-3"
+                  style="color: #3f64ff; font-size: 20px"
+                ></i>
+                <div>
+                  Jabama will act as one of the two required guarantors to
+                  expedite the loan process.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="process">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-11 col-sm-10 process__wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div
+                  class="process__title col-12 d-flex flex-wrap align-items-end justify-content-center"
+                >
+                  Introducing
+                  <div class="highlight flex-column mx-1">
+                    <div class="highlight-bg"></div>
+                    <div class="position-relative">Work Process</div>
+                  </div>
+                </div>
+
+                <div class="process__item col-10 col-sm">
+                  <div class="row">
+                    <div
+                      class="process__item__image d-flex justify-content-between"
+                    >
+                      <img src="./assets/images/step (1).svg" alt="" />
+                      <img
+                        src="./assets/images/arrow.svg"
+                        alt=""
+                        class="arrow"
+                      />
+                    </div>
+                    <div class="process__item__title col-12">
+                      Get Jabama's Introduction Letter
+                    </div>
+                    <div class="process__item__subtitle col-12">
+                      You, the host, need to go through the following steps to
+                      verify documents and receive an introduction letter from
+                      Jabama.
+                    </div>
+                  </div>
+                </div>
+                <div class="process__item col-10 col-sm">
+                  <div class="row">
+                    <div
+                      class="process__item__image d-flex justify-content-between"
+                    >
+                      <img src="./assets/images/step (2).svg" alt="" />
+                      <img
+                        src="./assets/images/arrow.svg"
+                        alt=""
+                        class="arrow"
+                      />
+                    </div>
+                    <div class="process__item__title col-12">Register</div>
+                    <div class="process__item__subtitle col-12">
+                      For registration, you need to enter your host code, phone
+                      number, and upload a photo of your ploperty deed, rental
+                      agreement, or official permit on this platform.
+                    </div>
+                  </div>
+                </div>
+                <div class="process__item col-10 col-sm">
+                  <div class="row">
+                    <div
+                      class="process__item__image d-flex justify-content-between"
+                    >
+                      <img src="./assets/images/step (3).svg" alt="" />
+                      <img
+                        src="./assets/images/arrow.svg"
+                        alt=""
+                        class="arrow"
+                      />
+                    </div>
+                    <div class="process__item__title col-12">Credit Check</div>
+                    <div class="process__item__subtitle col-12">
+                      After registration, Jabama's support team will check your
+                      documents. The results will be sent to you via SMS.
+                    </div>
+                  </div>
+                </div>
+                <div class="process__item col-10 col-sm">
+                  <div class="row">
+                    <div
+                      class="process__item__image d-flex justify-content-between"
+                    >
+                      <img src="./assets/images/step (4).svg" alt="" />
+                      <img
+                        src="./assets/images/arrow.svg"
+                        alt=""
+                        class="arrow"
+                      />
+                    </div>
+                    <div class="process__item__title col-12">
+                      Additional Documents
+                    </div>
+                    <div class="process__item__subtitle col-12">
+                      If your initial documents are apploved, our team will
+                      contact you to submit additional documents. Afterward,
+                      Jabama's online introduction letter will be issued.
+                    </div>
+                  </div>
+                </div>
+                <div class="process__item col-10 col-sm">
+                  <div class="row">
+                    <div
+                      class="process__item__image d-flex justify-content-between"
+                    >
+                      <img src="./assets/images/step (5).svg" alt="" />
+                    </div>
+                    <div class="process__item__title col-12">
+                      Document Rejection
+                    </div>
+                    <div class="process__item__subtitle col-12">
+                      If your information or documents are incomplete, the
+                      reasons for rejection will be sent to you via SMS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tip">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 col-sm-9 tip__wrapper">
+            <div class="row d-flex flex-wrap">
+              <div>
+                <i
+                  class="fas fa-check-circle"
+                  style="color: #3cc896; font-size: 20px"
+                ></i>
+              </div>
+              <div class="col">
+                <strong>Note: </strong>
+                After receiving Jabama's introduction letter, you can visit any
+                branch of the Tourism Bank to receive the loan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form" id="start">
+      <img src="./assets/images/form.svg" alt="" class="form__left" />
+      <img src="./assets/images/plant.svg" alt="" class="form__right" />
+
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-11 col-sm-6 mb-4">
+            <div class="form__title d-flex flex-wrap">
+              <div
+                style="
+                  color: #ffa41b;
+                  font-weight: bold;
+                  margin-left: -20px;
+                  margin-right: 10px;
+                "
+              >
+                /
+              </div>
+              <div>Start Now</div>
+            </div>
+            <div class="form__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </div>
+          </div>
+          <div class="form__box">
+            <form>
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="form__input col-12 d-flex justify-content-between"
+                  >
+                    <img
+                      src="./assets/icons/user.svg"
+                      alt=""
+                      class="form__input__icon"
+                    />
+                    <input
+                      type="text"
+                      class="form__input__field pl-3"
+                      placeholder="Host Name"
+                    />
+                  </div>
+                  <div
+                    class="form__input col-12 d-flex justify-content-between"
+                  >
+                    <img
+                      src="./assets/icons/telephone.svg"
+                      alt=""
+                      class="form__input__icon"
+                    />
+                    <input
+                      type="text"
+                      class="form__input__field pl-3"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div
+                    class="form__input col-12 d-flex justify-content-between"
+                  >
+                    <img
+                      src="./assets/icons/code.svg"
+                      alt=""
+                      class="form__input__icon"
+                    />
+                    <input
+                      type="text"
+                      class="form__input__field pl-3"
+                      placeholder="Host Code"
+                    />
+                  </div>
+                  <div class="form__input col-12">
+                    <div class="d-flex justify-content-start">
+                      <button
+                        type="button"
+                        id="custom-button"
+                        class="d-flex align-items-center"
+                      >
+                        <img
+                          src="./assets/icons/doc.svg"
+                          alt=""
+                          class="form__input__icon mr-3"
+                        />
+                        <div class="col text-left" style="padding: 0">
+                          Upload Documents
+                        </div>
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="col-12">
+                      <input type="file" id="real-file" hidden="hidden" />
+                      <span id="custom-text"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="float-left form__box__btn"
+                name="submit_mail"
+                type="submit"
+              >
+                Submit Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faq position-relative">
+      <img src="./assets/images/faq_left.svg" alt="" class="faq__left" />
+      <img src="./assets/images/faq_right.svg" alt="" class="faq__right" />
+
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-11 col-sm-9">
+            <div class="row">
+              <div class="faq__title d-flex flex-wrap align-items-end">
+                <div class="highlight flex-column mx-1">
+                  <div class="highlight-bg"></div>
+                  <div class="position-relative">FAQ</div>
+                </div>
+                Frequently Asked Questions
+              </div>
+            </div>
+            <button
+              class="faq__item"
+              data-toggle="collapse"
+              data-target="#collapse1"
+              aria-expanded="true"
+              aria-controls="collapse1"
+            >
+              <div class="faq__item__title">
+                <strong class="faq__item__title__line">-</strong>
+                How can I submit my request?
+              </div>
+            </button>
+            <div class="faq__item__subtitle collapse show" id="collapse1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="col-11 col-sm-9">
+            <button
+              class="faq__item"
+              data-toggle="collapse"
+              data-target="#collapse2"
+              aria-expanded="false"
+              aria-controls="collapse2"
+            >
+              <div class="faq__item__title">
+                <strong class="faq__item__title__line">-</strong>
+                What documents are required?
+              </div>
+            </button>
+            <div class="faq__item__subtitle collapse" id="collapse2">
+              You will need to plovide a host code, phone number, and a copy of
+              your ploperty ownership or rental agreement.
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="col-11 col-sm-9">
+            <button
+              class="faq__item"
+              data-toggle="collapse"
+              data-target="#collapse3"
+              aria-expanded="false"
+              aria-controls="collapse3"
+            >
+              <div class="faq__item__title">
+                <strong class="faq__item__title__line">-</strong>
+                How long does the process take?
+              </div>
+            </button>
+            <div class="faq__item__subtitle collapse" id="collapse3">
+              The duration depends on document validation, which typically takes
+              a few working days. Updates will be sent via SMS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-sm-10 footer__wrapper">
+            <div class="container-fluid">
+              <div
+                class="row d-flex flex-row align-items-center justify-content-between"
+              >
+                <div class="col-12 col-md-9">
+                  <div class="row">
+                    <div class="footer__item col-12 col-md">
+                      <img src="./assets/logo/whiteLogo.svg" alt="white" />
+                    </div>
+                    <div
+                      class="footer__item footer__item__middle col-12 col-md"
+                    >
+                      24/7 Support, 7 days a week
+                    </div>
+                    <div
+                      class="footer__item d-flex align-items-center col-12 col-md justify-content-center"
+                    >
+                      <div>
+                        <i
+                          class="fas fa-phone-square-alt ml-2"
+                          style="font-size: 28"
+                        ></i>
+                      </div>
+                      <div>+1-800-123-4567</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item col-12 col-md-3 col-lg-2">
+                  <div class="row justify-content-center">
+                    <div>
+                      <a href="#">
+                        <i class="fab fa-twitter footer__icon"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <i class="fab fa-instagram footer__icon"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <i class="fab fa-telegram-plane footer__icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

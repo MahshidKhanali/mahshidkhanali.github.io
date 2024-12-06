@@ -1,0 +1,813 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>novinhub2</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container-fluid">
+        <img src="./assets/images/top_curve.svg" alt="" class="header_curve" />
+        <img
+          src="./assets/images/logo/novin_blue.png"
+          alt=""
+          class="header_logo"
+        />
+        <div class="row d-flex justify-content-center">
+          <div class="col-11 col-sm-10">
+            <div class="row">
+              <div class="header_wrapper">
+                <div class="header_dots row d-flex justify-content-center">
+                  <div class="col-12 col-sm-5 header_title">
+                    <div class="container-fluid">
+                      <div class="row d-flex flex-wrap">
+                        <div class="mr-2">Compare</div>
+                        <div class="header_underline">
+                          social media platforms
+                        </div>
+                        <div>by cost and features</div>
+                      </div>
+                      <div class="row d-flex header_btn_wrapper">
+                        <button
+                          class="header_btn header_btn_outlined"
+                          onclick="window.location.assign('#features')"
+                        >
+                          Features
+                        </button>
+                        <button
+                          class="header_btn header_btn_filled"
+                          onclick="window.location.assign('#compare')"
+                        >
+                          <div
+                            class="d-flex justify-content-around align-items-center"
+                          >
+                            <div>Comparison</div>
+                            <i
+                              class="fas fa-chevron-right mr-2"
+                              style="color: orange"
+                            ></i>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-5">
+                    <img
+                      src="./assets/images/top_main.png"
+                      alt=""
+                      class="img-fluid header_img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div style="font-size: 30px; color: rgba(0, 0, 0, 0.671)">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="details">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="d-flex flex-wrap align-items-end justify-content-center details_title col-11 mb-4"
+          >
+            Compare social media platforms by cost and
+            <div class="highlight flex-column mx-1">
+              <div class="highlight-bg"></div>
+              <div class="position-relative">features</div>
+            </div>
+          </div>
+          <div class="details_subtitle col-11 col-sm-8">
+            Nowadays by considering the increasing number of people joining
+            social media platforms, social presence is an important factor for
+            businesses. But creating an account or posting content once in a
+            while, is not counted as social media presence for businesses.
+            Today, social media management systems can help business owners to
+            continue communicate with their followers. Novinhub is one of these
+            platforms that helps you post or schedule content, analyze social
+            media activity and manage or download comments as your smart
+            assistant. In the chart below you can compare different social media
+            management systems. As you see Novinhub receives less cost by
+            providing more features.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chart" id="compare">
+      <section class="chart_desktop">
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center">
+            <div class="col-11 col-sm-10">
+              <div class="container-fluid">
+                <div class="row d-flex align-items-center chart_row">
+                  <div class="col"></div>
+                  <div class="col">
+                    <img
+                      src="./assets/images/logo/Buffer.svg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./assets/images/logo/Hootsuite.svg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./assets/images/logo/Later.svg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./assets/images/logo/novin_blue.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">number of accounts</div>
+                  <div class="col">8-25</div>
+                  <div class="col">10-50</div>
+                  <div class="col">4-20</div>
+                  <div class="col">5-50</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">supported social medias</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                    <img src="./assets/images/socials/tumblr.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">
+                    Upload and schedule posts
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                    <img src="./assets/images/socials/tumblr.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+
+                <div class="row chart_row">
+                  <div class="col chart_row_title">Number of users</div>
+                  <div class="col">1-6</div>
+                  <div class="col">1-10</div>
+                  <div class="col">1-5</div>
+                  <div class="col">1-5</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">
+                    Comment management system
+                  </div>
+                  <div class="col">reply comments</div>
+                  <div class="col">like, comment and retweet</div>
+                  <div class="col">
+                    <img
+                      src="./assets/images/cross.svg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col">reply and delete comments</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">Export comments</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">Social media Analysis</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">Hashtag suggestion</div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row chart_row">
+                  <div class="col chart_row_title">Cost starts from</div>
+                  <div class="col">99$ only scheduling/ 50$ only analyzing</div>
+                  <div class="col">$599</div>
+                  <div class="col">$41</div>
+                  <div
+                    class="col"
+                    style="
+                      font-size: 24px;
+                      font-weight: 500;
+                      letter-spacing: -0.53px;
+                    "
+                  >
+                    $26
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col chart_row_title"></div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                  <div class="col"></div>
+                    <button
+                      class="start_btn d-flex align-items-center justify-content-around"
+                    >
+                      <div>Sign up now!</div>
+                      <div>
+                        <i class="fas fa-chevron-right mr-2"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="chart_mobile">
+        <div class="container-fluid">
+          <div class="row chart_mobile_item">
+            <div class="col-12">
+              <div class="container-fluid">
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col"></div>
+                  <div class="col">
+                    <img src="./assets/images/logo/Buffer.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">number of accounts</div>
+                  <div class="col">8-25</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">supported social medias</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Upload and schedule posts
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Number of users</div>
+                  <div class="col">1-6</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Comment management system
+                  </div>
+                  <div class="col">reply comments</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Export comments</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Social media Analysis</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Hashtag suggestion</div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Cost starts from</div>
+                  <div class="col">99$ only scheduling/ 50$ only analyzing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row chart_mobile_item">
+            <div class="col-12">
+              <div class="container-fluid">
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col"></div>
+                  <div class="col">
+                    <img src="./assets/images/logo/Hootsuite.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">number of accounts</div>
+                  <div class="col">10-50</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">supported social medias</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Upload and schedule posts
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Number of users</div>
+                  <div class="col">1-10</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Comment management system
+                  </div>
+                  <div class="col">like, comment and retweet</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Export comments</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Social media Analysis</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Hashtag suggestion</div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Cost starts from</div>
+                  <div class="col">$599</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row chart_mobile_item">
+            <div class="col-12">
+              <div class="container-fluid">
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col"></div>
+                  <div class="col">
+                    <img src="./assets/images/logo/Later.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">number of accounts</div>
+                  <div class="col">4-20</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">supported social medias</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Upload and schedule posts
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Number of users</div>
+                  <div class="col">1-5</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Comment management system
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Export comments</div>
+                  <div class="col">
+                    <img src="./assets/images/cross.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Social media Analysis</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Hashtag suggestion</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Cost starts from</div>
+                  <div class="col">$41</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row chart_mobile_item">
+            <div class="col-12">
+              <div class="container-fluid">
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col"></div>
+                  <div class="col">
+                    <img src="./assets/images/logo/novin_blue.png" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">number of accounts</div>
+                  <div class="col">5-50</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">supported social medias</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                    <img src="./assets/images/socials/tumblr.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Upload and schedule posts
+                  </div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/youtube.svg" alt="" />
+                    <img src="./assets/images/socials/tumblr.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Number of users</div>
+                  <div class="col">1-5</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">
+                    Comment management system
+                  </div>
+                  <div class="col">reply and delete comments</div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Export comments</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Social media Analysis</div>
+                  <div class="col">
+                    <img src="./assets/images/socials/instagram.svg" alt="" />
+                    <img src="./assets/images/socials/facebook.svg" alt="" />
+                    <img src="./assets/images/socials/twitter.svg" alt="" />
+                    <img src="./assets/images/socials/linkedin.svg" alt="" />
+                    <img src="./assets/images/socials/pinterest.svg" alt="" />
+                    <img src="./assets/images/socials/telegram.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Hashtag suggestion</div>
+                  <div class="col">
+                    <img src="./assets/images/check.svg" alt="" />
+                  </div>
+                </div>
+                <div class="chart_divider"></div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title">Cost starts from</div>
+                  <div
+                    class="col"
+                    style="
+                      font-size: 24px;
+                      font-weight: 500;
+                      letter-spacing: -0.53px;
+                    "
+                  >
+                    $26
+                  </div>
+                </div>
+                <div class="row d-flex align-items-center chart_row_mobile">
+                  <div class="col chart_row_title"></div>
+                  <div class="col">
+                    <button
+                      class="start_btn d-flex align-items-center justify-content-around"
+                      style="width: 100%"
+                    >
+                      <div>Sign up now!</div>
+                      <div>
+                        <i class="fas fa-chevron-right mr-2"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="start" id="features">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-11 col-sm-9">
+            <div class="row d-flex align-items-center">
+              <div class="col-12 col-sm-auto d-flex justify-content-start mb-3">
+                <img src="./assets/images/footer_user.svg" alt="" />
+              </div>
+              <div class="col mx-3">
+                <div class="row flex-column">
+                  <div class="start_title mb-2">
+                    Start your 7-days free trial
+                  </div>
+                  <div class="start_subtitle mb-4">
+                    Many features await your needs on Novinhub!
+                  </div>
+                  <button
+                    class="start_btn d-flex align-items-center justify-content-around"
+                  >
+                    <div>Sign up now!</div>
+                    <div>
+                      <i class="fas fa-chevron-right mr-2"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="col-12 col-sm-auto d-flex justify-content-center mt-5"
+              >
+                <img
+                  src="./assets/images/footer_main.svg"
+                  alt=""
+                  width="300px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="./assets/images/footer_dots.svg" alt="" class="footer_dot" />
+
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-sm-10">
+            <div
+              class="row footer_wrapper d-flex justify-content-between align-items-center"
+            >
+              <div class="col-12 col-sm-2 d-flex justify-content-center">
+                <img
+                  src="./assets/images/logo/novin_white.png"
+                  alt=""
+                  width="200px"
+                />
+              </div>
+              <div
+                class="col-12 col-sm-2 socials d-flex justify-content-center mt-3"
+              >
+                <a href="#">
+                  <div>
+                    <i class="fab fa-twitter social-icon"></i>
+                  </div>
+                </a>
+                <a href="#">
+                  <div>
+                    <i class="fab fa-telegram-plane social-icon"></i>
+                  </div>
+                </a>
+                <a href="#">
+                  <div>
+                    <i class="fab fa-instagram social-icon"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

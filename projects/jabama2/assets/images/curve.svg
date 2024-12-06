@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1365.6 574.7" style="enable-background:new 0 0 1365.6 574.7;" xml:space="preserve" preserveAspectRatio="none">
+<style type="text/css">
+	.st0{filter:url(#Path_8171);}
+	.st1{fill:#FFFFFF;}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="712.677" id="Path_8171" width="1503.605" x="0" y="0">
+	<feOffset  dy="3" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="23"></feGaussianBlur>
+	<feFlood  flood-opacity="0.02"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g transform="matrix(1, 0, 0, 1, 0, 0)" class="st0">
+	<path id="Path_8171-2_1_" class="st1" d="M0,354.3c0,0,45.5,262.3,263.6,214.6s376.3-241.7,376.3-241.7s98.5-115.7,215.4-87.9
+		s345.6,108.8,510.3-14.8c-3,2.8,0-223.1,0-223.1L0,0L0,354.3z"/>
+</g>
+</svg>
